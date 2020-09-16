@@ -120,7 +120,7 @@ def newPrintTask():
         return False
 
 for i in range(10):
-    pagesPerMinute = 10
+    pagesPerMinute = 50
     printer = Printer(pagesPerMinute)
     printQueue = Queue()
     # 计算平均等待时间，所以需将所有的等待时间进行存储
